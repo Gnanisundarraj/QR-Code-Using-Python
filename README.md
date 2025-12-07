@@ -31,29 +31,49 @@ A simple and user-friendly QR Code Generator built with Python. This project all
    git clone https://github.com/Gnanisundarraj/qr-code-generator.git
 2   Navigate to the project folder
    
-    ```bash
+   
       cd qr-code-generator 
 
 3  Install required dependencies:
 
-     ```bash
+    
        pip install -r requirements.txt
 
  ▶️ How to Run
 
- For web app (Streamlit):
-  ```bash
-    streamlit run app.py
+ For web app (Streamlit):  
+ 
+             
+         streamlit run app.py
 
 For simple QR code script: 
-   ```bash
-     python qr_code2.py
+
+                
+             python qr_code2.py
 
 📂 Project Structure
   qr-code-generator/
-│── app.py
-│── qr_code2.py
-│── requirements.txt
+
 │── README.md
 
+│── app.py
+
+│──qr_code2.py
+
+│── requirements.txt
+
+
+📷 Sample Output
+
+QR code is generated and displayed in the browser and can be downloaded as an image.
+
+🎯 Use Cases
+
+Share website links quickly
+
+Digital payment QR codes
+
+Event tickets and passes
+
+Product and inventory management
 
